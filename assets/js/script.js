@@ -59,5 +59,18 @@ $(document).ready(function () {
         }
     }
     
+    // Stores data locally when user clicks on the save button
+    saveBtn.on("click", function () { 
     
+        var rowHour = $(this).attr("data-hour"); // variable referencing the assigned hour row in the html doc 
+        var input = $("#" + rowHour + "Row").val(); // saves the text that has been entered into the input column 
+        localStorage.setItem(rowHour, input); //saves input to local storaage
+    });
+    
+    //  For loop to retrieve the stored data that was saved for each input 
+    function showUserInput() {
+        for (var i = 0; i <= 12; i++) {
+        $("#" + i + "Row").val(localStorage.getItem(i));
+        }
+    }
     });
