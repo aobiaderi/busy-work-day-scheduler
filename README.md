@@ -8,3 +8,8 @@ This is a simple calendar application that allows the user to save tasks/events 
 The following animation demonstrates the application's functionality:
 
 ![The work-day-scheduler includes the current date and time dynamically updated and shows time blocks which are color coded to grey, red and green for past, present and future events respectively.It also has a save button which the user enables user input to be stored locally until cleared.](/assets/images/work-day-scheduler.gif)
+
+## Link
+Below is a link to the work-day-scheduler application:
+
+* [work-day-scheduler webpage](https://aobiaderi.github.io/work-day-scheduler/)
